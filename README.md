@@ -8,9 +8,9 @@ This type supports efficient, validated, formatted usage of North American Numbe
 <pre>
 curl -s -S -L https://github.com/rlichtenwalter/pg_nanp/archive/master.zip > pg_nanp.zip
 unzip pg_nanp.zip
-(cd pg_nanp-master && make PG_CONFIG=<optional custom pg_config path>)
-(cd pg_nanp-master && make PG_CONFIG=<optional custom pg_config path> install)
-(cd ~postgres && sudo -u postgres psql -c 'CREATE EXTENSION pg_nanp;')
+(cd pg_nanp-master &amp;&amp; make PG_CONFIG=&lt;optional custom pg_config path&gt;)
+(cd pg_nanp-master &amp;&amp; make PG_CONFIG=&lt;optional custom pg_config path&gt; install)
+(cd ~postgres &amp;&amp; sudo -u postgres psql -c 'CREATE EXTENSION pg_nanp;')
 </pre>
 
 <h3>Usage</h3>
