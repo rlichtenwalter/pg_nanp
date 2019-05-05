@@ -1,0 +1,5 @@
+# pg_nanp extension
+comment = 'an efficient, validated, formatted NANP type'
+default_version = '1.0'
+module_pathname = '$libdir/pg_nanp'
+relocatable = true
